@@ -3379,7 +3379,7 @@ section:nth-child(odd) {
   line-height: 2;
 }
 #ourservices ol {
-  margin: 0 100px 100px 120px;
+  margin: 0 100px 100px 0;
 }
 
 section.p-sm {
@@ -3626,6 +3626,13 @@ section.height-auto {
 
 .contact-form {
   width: 50%;
+}
+
+#footer {
+  background-color: #004356;
+}
+#footer p, #footer a, #footer h6 {
+  color: #fff;
 }
 
 #footer a:hover {

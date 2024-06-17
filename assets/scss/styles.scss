@@ -3408,7 +3408,7 @@ $animationSpeed: 40s;
     line-height: 2;
   }
   ol {
-    margin: 0 100px 100px 120px;
+    margin: 0 100px 100px 0;
   }
 }
 
@@ -3657,6 +3657,13 @@ section.height-auto {
 }
 .contact-form {
   width: 50%;
+}
+
+#footer {
+  background-color: $primary;
+  p, a, h6 {
+    color: $white;
+  }
 }
 
 #footer a:hover{
