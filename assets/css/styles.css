@@ -518,7 +518,7 @@ a > code {
   background-color: #fff;
   border-color: rgba(0, 220, 73, 0.6117647059);
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(250, 208, 44, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 67, 86, 0.5803921569);
 }
 
 .form-control::-webkit-input-placeholder {
@@ -833,7 +833,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(250, 208, 44, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 67, 86, 0.5803921569);
 }
 
 .btn.disabled, .btn:disabled {
@@ -853,8 +853,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #002530;
-  border-color: #002530;
+  background-color: #00DC4A;
+  border-color: #00DC4A;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -892,7 +892,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  box-shadow: #2b2b29;
 }
 
 .btn-secondary.disabled, .btn-secondary:disabled {
@@ -910,7 +910,7 @@ fieldset:disabled a.btn {
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  box-shadow: #2b2b29;
 }
 
 .btn-outline-primary {
@@ -1279,7 +1279,7 @@ input[type=button].btn-block {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(250, 208, 44, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 67, 86, 0.5803921569);
 }
 
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
@@ -1430,7 +1430,7 @@ input[type=button].btn-block {
 .custom-select:focus {
   border-color: rgba(0, 220, 73, 0.6117647059);
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(250, 208, 44, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 67, 86, 0.5803921569);
 }
 
 .custom-select:focus::-ms-value {
@@ -1488,7 +1488,7 @@ input[type=button].btn-block {
 
 .custom-file-input:focus ~ .custom-file-label {
   border-color: rgba(0, 220, 73, 0.6117647059);
-  box-shadow: 0 0 0 0.2rem rgba(250, 208, 44, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 67, 86, 0.5803921569);
 }
 
 .custom-file-input:disabled ~ .custom-file-label {
@@ -3359,6 +3359,11 @@ section:nth-child(odd) {
   background: #004356;
 }
 
+#ourservices .services-wrapper:hover {
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.9) !important;
+  color: #00DC4A;
+}
+
 #seguridadehigiene {
   color: #fff;
 }
@@ -3626,6 +3631,44 @@ section.height-auto {
 
 .contact-form {
   width: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #footer {
