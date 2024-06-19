@@ -3682,6 +3682,32 @@ section.height-auto {
   color: #00DC4A;
 }
 
+/*flags*/
+.flags {
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.flags__item {
+  width: 30px;
+}
+
+.flags__item:hover {
+  width: 40px;
+}
+
+.flags__item.active {
+  width: 40px;
+}
+
+.flags__img {
+  cursor: pointer;
+  display: block;
+}
+
 @media (max-width: 800px) {
   .flex-row {
     flex-direction: column !important;

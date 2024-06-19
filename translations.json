@@ -1,0 +1,269 @@
+{
+    "en": {
+        "menu": {
+            "home": "Home",
+            "about": "About",
+            "services": "Services",
+            "security": "Security and Hygiene",
+            "contact": "Contact us"
+        },
+        "header": {
+            "security": "Security and Hygiene",
+            "environment": "Environment",
+            "legal": "Legal Advice",
+            "iso": "ISO Standards",
+            "secure": "Insurance",
+            "art": "ART"
+        },
+        "about": {
+            "title": "About",
+            "name": "Hello, I'm Nicolás Piaggio",
+            "welcome": "I welcome you and introduce myself.",
+            "paragraph1": "With years of experience in Security and Hygiene, I have the capacity and knowledge necessary to advance your business. I combine my expertise to transform your processes and strategies, ensuring compliance with regulatory bodies. I take pride in helping my clients shape and improve their business structure and management, focusing on continuous training and care for their personnel in safety, hygiene, and environment.",
+            "paragraph2": "As a Comprehensive Consulting Service, I have formed a team with the best professionals in each area, not only in knowledge and experience, but also in VALUES. Setting ourselves apart, we centralize all fronts of your industry into a single consultancy. This team promptly offers practical solutions tailored to your problems, concerns, or needs. Since 2015, we have supported numerous clients and have the confidence to be the best choice for you."
+        },
+        "security": {
+            "title": "Security and Hygiene",
+            "title1": "Comply with Law 19,587, its decrees, and resolutions.",
+            "paragraph1": "Do you need a Security and Hygiene service for your business but not sure who to turn to? Need help with evacuation plans or executing your next building project? Facing issues with SRT, ART, and inspectors demanding unreasonable things?",
+            "title2": "Facing issues with enabling your business?",
+            "paragraph2": "Let us guide you. Any organization can move forward with small incremental changes, but building your future in today's rapidly evolving environment requires bold and well-informed decisions."
+        },
+        "choose": {
+            "title": "They keep choosing us",
+            "subtitle": "some of the best organizations"
+        },
+        "our-services": {
+            "title": "Our services",
+            "paragraph1": "We schedule a free visit to your organization.",
+            "paragraph2": "We quickly examine it, identifying potential issues or failures in production, workstations, machinery, or operators. We list activities that could be improved and seek consensus among the three parties (Employer, Employee, and Security and Hygiene).",
+            "paragraph3": "Then, together we design strategies using intelligent tools and minimal resources to not impact the organization's economy, ensuring a better quality of life for workers and employers alike. Seeking immediate results.",
+            "service1": "Monthly Security and Hygiene service for industries",
+            "service2": "Security and Hygiene service for construction projects",
+            "service3": "Security and Hygiene training",
+            "service4": "Legal advice on ART and Insurance",
+            "service5": "Environmental measurements",
+            "subtitle5": "RES SRT 961/15",
+            "service6": "Vibration measurements",
+            "subtitle6": "Decree No. 351/79 Resolution No. 295/2003",
+            "service7": "Noise measurements",
+            "subtitle7": "Decree No. 351/79 Resolution No. 295/2003",
+            "service8": "Grounding measurements",
+            "subtitle8": "RES SRT 900/15",
+            "service9": "Forklift handling training",
+            "subtitle9": "RES SRT 960/15",
+            "service10": "Lighting measurements",
+            "subtitle10": "RES SRT 84/12",
+            "service11": "Fire load study",
+            "subtitle11": "Decree 351/79",
+            "service12": "Self-protection system",
+            "subtitle12": "Law No. 5920"
+        },
+        "work": {
+            "title": "Want to work with us?",
+            "subtitle": "Leave us your CV and we'll contact you",
+            "button": "Submit my CV"
+        },
+        "banner": {
+            "title": "What are you waiting for? Join us!"
+        },
+        "contact": {
+            "title": "Contact us",
+            "subtitle": "If you have any questions or need help, please contact us!",
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "button": "Send"
+        },
+        "footer": {
+            "title-about-us": "About us",
+            "paragraph1": "Since 2015, we have supported numerous clients and have the confidence to be the best choice for you.",
+            "title-links": "Links",
+            "home": "Home",
+            "about": "About",
+            "services": "Services",
+            "security": "Security and Hygiene",
+            "contact": "Contact us",
+            "title-info": "Contact information",
+            "subtitle-info": "Contact us and we'll respond within 24 hours"
+        }
+    },
+    "es": {
+        "menu": {
+            "home": "Home",
+            "about": "Acerca de",
+            "services": "Servicios",
+            "security": "Seguridad e higiene",
+            "contact": "Contactanos"
+        },
+        "header": {
+            "security": "Seguridad e higiene",
+            "environment": "Medioambiente",
+            "legal": "Avisos legales",
+            "iso": "Normas ISO",
+            "secure": "Seguros",
+            "art": "ART"
+        },
+        "about": {
+            "title": "Acerca de",
+            "name": "Hola, soy Nicolás Piaggio",
+            "welcome": "Les doy la bienvenida y me presento.",
+            "paragraph1": "Con años de experiencia en Seguridad e Higiene, tengo la capacidad y el saber necesarios para hacer avanzar su negocio. Combino mi conocimiento y habilidad para transformar sus procesos y estrategias, y con ello, a su empresa. Me llena de orgullo poder ayudar a mis clientes a dar forma y mejorar la estructura y gestión de sus empresas, logrando cumplir con todo lo exigido por entes reguladores; donde destaque el cuidado e instrucción permanente a su personal en materia de segridad, higiene y medioambiente.",
+            "paragraph2": "Como Servicio de Consultoría Integral formé un equipo de trabajo con los mejores en cada área; mejores no sólo en conocimientos y experiencia, sino también en VALORES. Logre distinguirse de los demás, centralizando todos los frentes de su industria en una sola asesoría. Este equipo ofrecerá con prontitud soluciones prácticas y diseñadas a la medida de su problema, inquietud o necesidad. Desde el año 2015 hemos apoyado a numerosos clientes y tenemos la confianza de ser la mejor opción para usted."
+        },
+        "security": {
+            "title": "Seguridad e higiene",
+            "title1": "Cumpla con la Ley 19.587, sus decretos y resoluciones.",
+            "paragraph1": "¿Quiere un servicio de Seguridad e Higiene en su negocio pero no está seguro de a quién recurrir? ¿Necesita ayuda con el plan de evacuación o la ejecución de su próxima obra edilicia? ¿Problemas con la SRT, la ART, y con inspectores que piden cosas irrisorias?",
+            "title2": "¿No le quieren habilitar su comercio?",
+            "paragraph2": "Permítanos asesorarle. Cualquier organización puede avanzar con pequeños cambios progresivos, pero construir su futuro en un entorno tan cambiante como el actual exige tomar decisiones audaces y bien informadas."
+        },
+        "choose": {
+            "title": "Nos siguen eligiendo",
+            "subtitle": "algunas de las mejores organizaciones"
+        },
+        "our-services": {
+            "title": "Nuestros servicios",
+            "paragraph1": "Pactamos una visita a su organización sin costo.",
+            "paragraph2": "La examinamos en corto tiempo, identificando posibles problemas o fallas en la producción, puestos de trabajo, maquinaria u operarios. Listamos las actividades que se podrían hacer mejor y buscamos un consenso entre las 3 partes (Empleador, empleado y Seguridad e Higiene).",
+            "paragraph3": "Después diseñamos en conjunto estrategias utilizando herramientas inteligentes y recursos mínimos para no afectar la economía de la organización, para GARANTIZAR una mejor calidad de vida al trabajador y su empleador. Buscando resultados inmediatos.",
+            "service1": "Servicio mensualo de Seguridad e higiene para industrias",
+            "service2": "Servicio de Seguridad e higiene para obras",
+            "service3": "Capacitaciones en Seguridad e higiene",
+            "service4": "Servicio de ART y Seguros Asesoría Legal",
+            "service5": "Mediciones ambientales",
+            "subtitle5": "RES SRT 961/15",
+            "service6": "Medición de vibraciones",
+            "subtitle6": "Decreto N° 351/79 Resolución N° 295/2003",
+            "service7": "Medición de ruido",
+            "subtitle7": "Decreto N° 351/79 Resolución N° 295/2003",
+            "service8": "Medición de puesta a tierra",
+            "subtitle8": "RES SRT 900/15",
+            "service9": "Capacitación manejo autoelevador",
+            "subtitle9": "RES SRT 960/15",
+            "service10": "Medición de iluminación",
+            "subtitle10": "RES SRT 84/12",
+            "service11": "Estudio de carga de fuego",
+            "subtitle11": "Decreto 351/79",
+            "service12": "Sistema de autoprotección",
+            "subtitle12": "Ley Nº 5920"
+        },
+        "work": {
+            "title": "¿Querés trabajar con nosotros?",
+            "subtitle": "Dejanos tu CV y te contactamos",
+            "button": "Enviar mi cv"
+        },
+        "banner": {
+            "title": "¿Qué esperás? ¡Sumate!"
+        },
+        "contact": {
+            "title": "Contactanos",
+            "subtitle": "Si tenés alguna pregunta, o necesitas ayuda, ¡por favor contactanos!",
+            "name": "Nombre",
+            "email": "Email",
+            "message": "Mensaje",
+            "button": "Enviar"
+        },
+        "footer": {
+            "title-about-us": "Sobre nosotros",
+            "paragraph1": "Desde el año 2015 hemos apoyado a numerosos clientes y tenemos la confianza de ser la mejor opción para usted.",
+            "title-links": "Links",
+            "home": "Home",
+            "about": "Acerca de",
+            "services": "Servicios",
+            "security": "Seguridad e higiene",
+            "contact": "Contactanos",
+            "title-info": "Información de contacto",
+            "subtitle-info": "Contactanos y te contestaremos dentro de las 24hs"
+        }
+    },
+    "pt": {
+        "menu": {
+            "home": "Início",
+            "about": "Sobre",
+            "services": "Serviços",
+            "security": "Higiene y Segurança",
+            "contact": "Contato"
+        },
+        "header": {
+            "security": "Higiene y Segurança",
+            "environment": "Meio Ambiente",
+            "legal": "Consultoria Jurídica",
+            "iso": "Normas ISO",
+            "secure": "Seguros",
+            "art": "ART"
+        },
+        "about": {
+            "title": "Sobre",
+            "name": "Olá, eu sou Nicolás Piaggio",
+            "welcome": "Dou as boas-vindas e me apresento.",
+            "paragraph1": "Com anos de experiência em Segurança e Higiene, tenho a capacidade e o conhecimento necessários para impulsionar o seu negócio. Combino meu conhecimento para transformar seus processos e estratégias, garantindo conformidade com os órgãos reguladores. Tenho orgulho em ajudar meus clientes a moldar e melhorar a estrutura e gestão de seus negócios, com foco na formação contínua e cuidado com seu pessoal em segurança, higiene e meio ambiente.",
+            "paragraph2": "Como Serviço de Consultoria Integral, formei uma equipe com os melhores profissionais de cada área, não apenas em conhecimento e experiência, mas também em VALORES. Nos diferenciamos centralizando todos os aspectos da sua indústria em uma única consultoria. Esta equipe oferece soluções práticas e sob medida para seus problemas, preocupações ou necessidades. Desde 2015, temos apoiado numerosos clientes e temos a confiança de ser a melhor escolha para você."
+        },
+        "security": {
+            "title": "Higiene y Segurança",
+            "title1": "Cumpra a Lei 19.587, seus decretos e resoluções.",
+            "paragraph1": "Precisa de um serviço de Segurança e Higiene para o seu negócio, mas não sabe a quem recorrer? Precisa de ajuda com planos de evacuação ou execução do seu próximo projeto de construção? Enfrentando problemas com SRT, ART e inspetores que solicitam coisas irrazoáveis?",
+            "title2": "Enfrentando problemas para habilitar seu negócio?",
+            "paragraph2": "Deixe-nos orientá-lo. Qualquer organização pode avançar com pequenas mudanças incrementais, mas construir seu futuro em um ambiente tão dinâmico quanto o atual exige decisões audaciosas e bem informadas."
+        },
+        "choose": {
+            "title": "Eles continuam nos escolhendo",
+            "subtitle": "algumas das melhores organizações"
+        },
+        "our-services": {
+            "title": "Nossos serviços",
+            "paragraph1": "Agendamos uma visita gratuita à sua organização.",
+            "paragraph2": "Examinamos rapidamente, identificando possíveis problemas ou falhas na produção, postos de trabalho, maquinaria ou operadores. Listamos atividades que podem ser melhoradas e buscamos consenso entre as três partes (Empregador, Empregado e Segurança e Higiene).",
+            "paragraph3": "Em seguida, projetamos estratégias usando ferramentas inteligentes e recursos mínimos para não impactar a economia da organização, garantindo uma melhor qualidade de vida para os trabalhadores e empregadores. Buscando resultados imediatos.",
+            "service1": "Serviço mensal de Segurança e Higiene para indústrias",
+            "service2": "Serviço de Segurança e Higiene para obras",
+            "service3": "Treinamentos em Segurança e Higiene",
+            "service4": "Consultoria jurídica em ART e seguros",
+            "service5": "Medições ambientais",
+            "subtitle5": "RES SRT 961/15",
+            "service6": "Medições de vibração",
+            "subtitle6": "Decreto Nº 351/79 Resolução Nº 295/2003",
+            "service7": "Medições de ruído",
+            "subtitle7": "Decreto Nº 351/79 Resolução Nº 295/2003",
+            "service8": "Medições de aterramento",
+            "subtitle8": "RES SRT 900/15",
+            "service9": "Treinamento em operação de empilhadeira",
+            "subtitle9": "RES SRT 960/15",
+            "service10": "Medições de iluminação",
+            "subtitle10": "RES SRT 84/12",
+            "service11": "Estudo de carga de fogo",
+            "subtitle11": "Decreto 351/79",
+            "service12": "Sistema de autoprotenção",
+            "subtitle12": "Lei Nº 5920"
+        },
+        "work": {
+            "title": "Quer trabalhar conosco?",
+            "subtitle": "Deixe-nos seu CV e entraremos em contato",
+            "button": "Enviar meu CV"
+        },
+        "banner": {
+            "title": "O que está esperando? Junte-se a nós!"
+        },
+        "contact": {
+            "title": "Entre em contato",
+            "subtitle": "Se você tiver alguma dúvida ou precisar de ajuda, entre em contato conosco!",
+            "name": "Nome",
+            "email": "E-mail",
+            "message": "Mensagem",
+            "button": "Enviar"
+        },
+        "footer": {
+            "title-about-us": "Sobre nós",
+            "paragraph1": "Desde 2015, temos apoiado numerosos clientes e temos a confiança de ser a melhor opção para você.",
+            "title-links": "Links",
+            "home": "Início",
+            "about": "Sobre",
+            "services": "Serviços",
+            "security": "Segurança e Higiene",
+            "contact": "Entre em contato",
+            "title-info": "Informações de contato",
+            "subtitle-info": "Entre em contato conosco e responderemos dentro de 24 horas"
+        }
+    }
+}

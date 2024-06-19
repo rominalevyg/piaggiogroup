@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 
 
-
+//modal
 document.addEventListener('DOMContentLoaded', function () {
     // Get all links that open modals
     var links = document.querySelectorAll('.openModalLink');
@@ -66,4 +66,52 @@ document.addEventListener('DOMContentLoaded', function () {
             event.target.style.display = 'none';
         }
     };
+});
+
+
+//translation
+document.addEventListener('DOMContentLoaded', function () {
+    const flagsContainer = document.getElementById('flags');
+
+    function updateTranslations(translations, language) {
+        const translation = translations[language];
+        if (translation) {
+            document.querySelectorAll('[data-section][data-translate]').forEach(element => {
+                const section = element.getAttribute('data-section');
+                const key = element.getAttribute('data-translate');
+                if (translation[section] && translation[section][key]) {
+                    element.textContent = translation[section][key];
+                }
+            });
+        }
+    }
+
+    async function fetchTranslations() {
+        try {
+            const response = await fetch('translations.json');
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            const translations = await response.json();
+
+            // Set default language
+            const defaultLanguage = flagsContainer.querySelector('.flags__item').getAttribute('data-language');
+            updateTranslations(translations, defaultLanguage);
+
+            // Add click event listener to flags container for delegation
+            flagsContainer.addEventListener('click', function (event) {
+                // Check if the clicked element or its parent has the 'flags__item' class
+                const flagsItem = event.target.closest('.flags__item');
+                if (flagsItem) {
+                    const selectedLanguage = flagsItem.getAttribute('data-language');
+                    updateTranslations(translations, selectedLanguage);
+                }
+            });
+
+        } catch (error) {
+            console.error('There has been a problem with your fetch operation:', error);
+        }
+    }
+
+    fetchTranslations();
 });
