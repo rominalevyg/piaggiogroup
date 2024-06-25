@@ -1899,12 +1899,13 @@ input[type=button].btn-block {
 }
 
 .navbar-light .navbar-toggler {
-  color: #2b2b29;
-  border-color: rgba(0, 0, 0, 0.1);
+  color: #00DC4A;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%23343a40' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  color: #00DC4A;
 }
 
 .navbar-light .navbar-text {
@@ -2917,10 +2918,10 @@ p {
 /* Page Navbar*/
 nav.page-navbar {
   min-height: 70px;
-  padding: 0 30px;
-  background-color: rgba(52, 58, 64, 0.2);
+  padding: 20px 40px 20px 20px;
   -webkit-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s;
+  background-color: #004356;
 }
 
 nav.page-navbar .navbar-brand {
@@ -2961,7 +2962,7 @@ nav.page-navbar .nav-item .btn {
 }
 nav.page-navbar.affix {
   min-height: 75px;
-  padding: 0 20px;
+  padding: 20px 40px 20px 20px;
   background: #fff;
   box-shadow: 0 2px 24px rgba(173, 181, 189, 0.4);
   color: #2b2b29;
@@ -3470,6 +3471,9 @@ section.height-auto {
 #workwithus {
   padding-left: 40%;
   padding-top: 140px;
+  background-image: url(../imgs/bg-img-5.jpg);
+  background-size: cover;
+  height: 500px;
 }
 
 #contact .container {
@@ -3526,6 +3530,10 @@ section.height-auto {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+#about {
+  background-size: cover;
 }
 
 #footer {
@@ -3612,16 +3620,16 @@ section.height-auto {
   }
   #ourservices .row {
     width: 64%;
-    gap: 100px;
+    gap: 50px;
     margin-bottom: 100px;
   }
 }
 @media (max-width: 1000px) {
-  #seguridadehigiene .container {
-    margin-right: -24px;
-  }
   #ourservices .row {
-    gap: 50px;
+    gap: 30px;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 20px;
   }
   .pre-footer .list {
     width: 33.3333333333% !important;
@@ -3632,13 +3640,6 @@ section.height-auto {
   }
 }
 @media (max-width: 900px) {
-  #seguridadehigiene .container {
-    margin-right: -24px;
-  }
-  #ourservices .row {
-    gap: 10px;
-    margin-bottom: 50px;
-  }
   #workwithus {
     padding-left: 60%;
   }
@@ -3649,6 +3650,7 @@ section.height-auto {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-size: contain !important;
   }
   #about .container {
     width: 90%;
@@ -3659,6 +3661,9 @@ section.height-auto {
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0;
+  }
+  #about .container {
+    background-size: cover !important;
   }
 }
 @media (min-width: 900px) {
@@ -3719,11 +3724,14 @@ section.height-auto {
   #ourservices .container ol {
     margin: 0 50px 100px 50px;
   }
-  #ourservices .row {
-    justify-content: center;
-  }
   #workwithus {
-    padding-top: 260px;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-bottom: 50px;
+    background-image: url(../imgs/bg-img-5-mb.jpg);
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
   }
 }
 @media (max-width: 700px) {
@@ -3737,6 +3745,35 @@ section.height-auto {
   }
   .pre-footer .list, .pre-footer .list2, .pre-footer .list3 {
     width: 90% !important;
+  }
+  .services-wrapper {
+    height: 150px;
+  }
+  #ourservices .row {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  #ourservices li {
+    font-size: 0.94em;
+  }
+  .header {
+    background-image: url(../imgs/header-mb.jpg);
+  }
+  .header .header-content {
+    margin-top: 0px;
+  }
+  .header .header-content .logo {
+    margin-bottom: 40px;
+  }
+  .header .header-content p {
+    font-size: 1em;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 450px) {
+  .header .header-content .logo {
+    margin-bottom: 40px;
+    width: 80%;
   }
 }
 
