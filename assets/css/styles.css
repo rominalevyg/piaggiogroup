@@ -1805,8 +1805,8 @@ input[type=button].btn-block {
 
 .navbar-toggler-icon {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.2em;
+  height: 1.2em;
   vertical-align: middle;
   content: "";
   background: no-repeat center center;
@@ -2070,6 +2070,7 @@ a.close.disabled {
   height: 100%;
   overflow: hidden;
   outline: 0;
+  text-align: left;
 }
 
 .modal-dialog {
@@ -2766,6 +2767,10 @@ a.text-dark:focus {
   color: #2b2b29 !important;
 }
 
+.modal-content .text-muted {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important;
 }
@@ -2918,7 +2923,7 @@ p {
 /* Page Navbar*/
 nav.page-navbar {
   min-height: 70px;
-  padding: 20px 40px 20px 20px;
+  padding: 10px 0px 10px 20px;
   -webkit-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s;
   background-color: #004356;
@@ -2945,6 +2950,7 @@ nav.page-navbar .nav-item .nav-link.active {
 
 nav.page-navbar .nav-item .btn {
   color: #fff !important;
+  margin-right: 20px;
 }
 
 @media (max-width: 767.98px) {
@@ -2962,7 +2968,7 @@ nav.page-navbar .nav-item .btn {
 }
 nav.page-navbar.affix {
   min-height: 75px;
-  padding: 20px 40px 20px 20px;
+  padding: 10px 0px 10px 20px;
   background: #fff;
   box-shadow: 0 2px 24px rgba(173, 181, 189, 0.4);
   color: #2b2b29;
@@ -3523,11 +3529,12 @@ section.height-auto {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  align-self: end;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: #004356;
   text-decoration: none;
   cursor: pointer;
 }
@@ -3655,6 +3662,13 @@ section.height-auto {
   #about .container {
     width: 90%;
   }
+  #seguridadehigiene {
+    background-color: #004356;
+    background-image: none !important;
+  }
+  #seguridadehigiene .container {
+    margin: auto;
+  }
 }
 @media (max-width: 900px) {
   .navbar-expand-md > .container,
@@ -3725,7 +3739,7 @@ section.height-auto {
     margin: 0 50px 100px 50px;
   }
   #workwithus {
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left: 0px;
     padding-bottom: 50px;
     background-image: url(../imgs/bg-img-5-mb.jpg);
@@ -3736,14 +3750,16 @@ section.height-auto {
 }
 @media (max-width: 700px) {
   #seguridadehigiene {
-    background-color: #004356 !important;
+    background-image: url(../imgs/bg-img-4-mb.jpg) !important;
     background-size: contain !important;
     background-repeat: no-repeat;
   }
   .p-seguridadehigiene {
     margin-top: 200px;
   }
-  .pre-footer .list, .pre-footer .list2, .pre-footer .list3 {
+  .pre-footer .list,
+  .pre-footer .list2,
+  .pre-footer .list3 {
     width: 90% !important;
   }
   .services-wrapper {
