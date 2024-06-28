@@ -3788,6 +3788,9 @@ section.height-auto {
     font-size: 1em;
     margin-left: 0px;
   }
+  #about {
+    padding: 50px 0;
+  }
 }
 @media (max-width: 450px) {
   .header .header-content .logo {
