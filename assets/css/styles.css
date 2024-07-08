@@ -416,6 +416,14 @@ h6,
   font-size: 1rem;
 }
 
+#logo-piaggio, #logo-piaggio2 {
+  width: 50%;
+}
+
+#logo-piaggio-blanco {
+  width: 60%;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
