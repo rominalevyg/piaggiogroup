@@ -387,13 +387,38 @@ h6,
 }
 
 
-#logo-piaggio, #logo-piaggio2 {
+#logo-piaggio,
+#logo-piaggio2 {
   width: 50%;
 }
 
 
 #logo-piaggio-blanco {
   width: 60%;
+}
+
+/* Estilos para el botón flotante */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: $secondary;
+  color: $white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 60px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* Estilos para el ícono de WhatsApp */
+.whatsapp-button i {
+  font-size: 30px;
 }
 
 .lead {
@@ -3772,6 +3797,7 @@ section.height-auto {
   #seguridadehigiene {
     background-color: $primary;
     background-image: none !important;
+
     .container {
       margin: auto;
     }
@@ -3868,7 +3894,7 @@ section.height-auto {
     padding-bottom: 60px;
     background-image: none;
     height: auto;
-    
+
   }
 
 }
