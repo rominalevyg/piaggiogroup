@@ -3620,6 +3620,11 @@ section.height-auto {
   display: block;
 }
 
+@media (max-width: 1366px) {
+  #ourservices .container {
+    width: 90%;
+  }
+}
 @media (max-width: 1350px) {
   .p-seguridadehigiene {
     margin-right: 50px;
@@ -3649,6 +3654,11 @@ section.height-auto {
   #workwithus {
     padding-left: 50%;
   }
+  #ourservices .row {
+    width: 70%;
+    gap: 50px;
+    justify-content: center;
+  }
 }
 @media (max-width: 1100px) {
   nav .container {
@@ -3662,11 +3672,6 @@ section.height-auto {
   }
   .contact-form {
     width: 70%;
-  }
-  #ourservices .row {
-    width: 64%;
-    gap: 50px;
-    margin-bottom: 100px;
   }
 }
 @media (max-width: 1000px) {
