@@ -785,10 +785,22 @@
                     <h6 data-section="work" data-translate="title" class="title mb-3">¿Quer&eacute;s trabajar con
                         nosotros?
                     </h6>
-                    <p data-section="work" data-translate="subtitle10">Dejanos tu CV y te contactamos</p>
-                    <button data-section="work" data-translate="button" class="btn btn-outline-primary btn-sm">Enviar mi
-                        cv</button>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p id="modal-message"></p>
+                        </div>
+                    </div>
 
+                    <form action="upload.php" method="post" enctype="multipart/form-data" class="flex-column">
+                        <label for="file" data-section="work" data-translate="subtitle10">
+                            <p> Dejanos tu CV y te contactamos</p>
+                        </label>
+                        <input type="file" name="file" id="fileInput">
+                        <button type="submit" data-section="work" data-translate="button"
+                            class="btn btn-outline-primary btn-sm margin-top" name="submit">Enviar mi CV</button>
+                        <div id="response-message"></div>
+                    </form>
                 </div>
             </div><!-- End of Row -->
         </div><!-- End of Container-->
@@ -813,23 +825,24 @@
             <p class="mb-5">Si ten&eacute;s alguna pregunta, o necesitas ayuda, por favor contactanos! <br></p>
 
             <!-- Contact form -->
-            <form class="contact-form">
+            <form action="send_email.php" method="post" class="contact-form">
                 <div class="form-row">
                     <div class="col form-group">
-                        <input type="text" class="form-control" placeholder="Nombre">
+                        <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre" required>
                     </div>
                     <div class="col form-group">
-                        <input type="email" class="form-control" placeholder="Email">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
                     </div>
                 </div>
                 <div class="form-group">
-                    <textarea name="message" id="textarea-message" cols="30" rows="5" class="form-control"
-                        placeholder="Mensaje"></textarea>
+                    <textarea id="message" name="message" cols="30" rows="5" class="form-control" placeholder="Mensaje"
+                        required></textarea>
                 </div>
                 <div class="form-group">
-                    <input type="submit" class="btn btn-primary btn-block" value="Enviar">
+                    <input type="submit" name="submit" class="btn btn-primary btn-block" value="Enviar">
                 </div>
             </form><!-- End of Contact form -->
+
         </div><!-- End of Container-->
     </section><!-- End of Contact Section -->
 
@@ -879,7 +892,7 @@
                         <p data-section="footer" data-translate="subtitle-info">Contactanos y te contestaremos dentro de
                             las 24hs</p>
                         <p><a href="https://wa.me/+5491149391446"><i class="ti-mobile"></i>+54 911 4939 1446</a></p>
-                        <p><i class="ti-email"></i> info@piaggiogroup.com</p>
+                        <p><i class="ti-email"></i> info@piaggiogroup.com.ar</p>
                         <div class="social-links">
                             <!-- <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
                         <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
@@ -898,7 +911,8 @@
             <footer class="footer text-align">
                 <p>Copyright
                     <script>document.write(new Date().getFullYear())</script> &copy; by <a
-                        href="http://www.studiocaroca.com.ar" target="_blank"><img src="assets/imgs/logo-caroca.png" alt="Studio caroca" height="50"></a>
+                        href="http://www.studiocaroca.com.ar" target="_blank"><img src="assets/imgs/logo-caroca.png"
+                            alt="Studio caroca" height="50"></a>
                 </p>
             </footer><!-- End of Footer-->
 
@@ -914,6 +928,24 @@
 
     <!-- Creative Design js -->
     <script src="assets/js/piaggiogroup.js"></script>
+
+    <script>
+        // Función para mostrar el modal con un mensaje
+        function showModal(message) {
+            document.getElementById('modal-message').textContent = message;
+            var modal = document.getElementById('myModal');
+            modal.style.display = "block";
+            var span = document.getElementsByClassName("close")[0];
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        }
+    </script>
 
 </body>
 

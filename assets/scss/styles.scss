@@ -275,6 +275,24 @@ input[type="month"] {
   -webkit-appearance: listbox;
 }
 
+input::file-selector-button {
+  color: $white;
+  background-color: $primary;
+  padding: 5px 0 5px 0;
+  font-size: 1em;
+  box-shadow: none;
+  border: none;
+  border-radius: 0.1rem;
+  cursor: pointer;
+  width: 120px;
+}
+
+input::file-selector-button:hover {
+  color: $primary;
+  background-color: $white;
+  border: 1px solid $primary;
+}
+
 textarea {
   overflow: auto;
   resize: vertical;
@@ -653,6 +671,7 @@ textarea.form-control {
 
 .form-group {
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .form-text {
@@ -3785,7 +3804,8 @@ section.height-auto {
 @media (max-width: 900px) {
 
   #workwithus {
-    padding-left: 60%;
+    padding-left: 50%;
+    padding-top: 250px;
   }
 
   #footer .container {
