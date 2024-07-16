@@ -278,19 +278,23 @@ input[type="month"] {
 input::file-selector-button {
   color: $white;
   background-color: $primary;
-  padding: 5px 0 5px 0;
+  padding: 5px 10px 5px 10px;
   font-size: 1em;
   box-shadow: none;
   border: none;
   border-radius: 0.1rem;
   cursor: pointer;
-  width: 120px;
+  border: 1px solid $white;
 }
 
 input::file-selector-button:hover {
   color: $primary;
   background-color: $white;
   border: 1px solid $primary;
+}
+
+.width-limit {
+  max-width: 300px;
 }
 
 textarea {
@@ -2966,7 +2970,7 @@ body {
 }
 
 /* typography */
-p {
+p, .simil-p {
   font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
   color: $gray-500
@@ -3707,6 +3711,13 @@ section.height-auto {
   display: block;
 }
 
+.logo-caroca {
+  opacity: 1;
+}
+
+.logo-caroca:hover {
+  opacity: 0.7;
+}
 
 @media (max-width: 1366px) {
 
@@ -3766,15 +3777,19 @@ section.height-auto {
   }
 
   .navbar-brand {
-    width: 20%;
+    width: 30%;
 
     img {
-      width: 100%;
+      width: 50% !important;
     }
   }
 
   .contact-form {
     width: 70%;
+  }
+
+  #logo-piaggio {
+    width: 100%;
   }
 
 }
@@ -3896,6 +3911,14 @@ section.height-auto {
   .navbar-expand-md .navbar-toggler {
     display: none;
   }
+ 
+  nav.page-navbar {
+    padding: 10px 0px 0px 10px !important;
+  }
+
+  .navbar {
+    padding: 0px;
+  }
 
 }
 
@@ -3924,6 +3947,18 @@ section.height-auto {
     background-image: none;
     height: auto;
 
+  }
+
+  .navbar-brand {
+    padding-right: 0px;
+
+    img {
+      width: 100% !important;
+    }
+  }
+
+  #logo-piaggio {
+    width: 100%;
   }
 
 }
@@ -3982,6 +4017,10 @@ section.height-auto {
     padding: 50px 0;
   }
 
+  #logo-piaggio {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 450px) {
@@ -3992,4 +4031,30 @@ section.height-auto {
     }
   }
 
+  input::file-selector-button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input[type="file"] {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-brand {
+    width: 50%;
+    padding-right: 0px;
+  }
+
+  #logo-piaggio {
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 0px;
+  }
+
+  .has-bg-img h1{
+    font-size: 2.8em;    
+  }
 }
